@@ -1,0 +1,76 @@
+@media screen and (max-width: 420px){
+    .header{
+        width: 100vw; height: 95vh;
+        background-position: 25%;
+    }
+    .header1 .socialmedia{
+        display: none;
+    }
+    .contact button{
+        display: block;
+        width: 25px;
+        padding: 5px 7px 5px 7px;
+        margin-right: 50px;
+    }
+    .header2{
+        position: fixed;
+        width: 100vw; height: 100vh;
+        background-image: linear-gradient(-135deg, #797cfa, #B1B2FF, #AAC4FF, #D2DAFF, #EEF1FF);
+        top: 0; left: 0; margin: 0;
+        display: block;
+        overflow: hidden;
+        left: -100vw;
+        transition: all 0.5s;
+        
+    }
+    .header2 .socialmedia{
+        display: block;
+        margin-top: 20px;
+        translate: 0 20px;
+    }
+    .header2 .socialmedia .redbox img{
+        transform: skew(0);  
+    }
+    .nav ul{
+        display: block; 
+        gap: 0px;   
+    }
+    .header2 .nav li{
+        color: black;
+        text-align: center;
+        margin-left: 0;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        box-sizing: border-box;
+        padding-top:70px ;
+    }
+    .nav li:last-child{
+        margin: 80px auto 0;
+        transform: skew(0deg);
+        border-radius: 10px;
+        width: 250px;
+    }
+    .header2 button{
+        display: block;
+        margin: 15px 15px auto auto;
+        width: 25px;
+        padding: 3px 7px 0 7px;
+    }
+    .header2 button img{
+        width: 100%;
+    }
+    .combody{
+        margin-top: 70px;
+    }
+    .text h1{
+        font-size: 50px;
+    }
+    .text p{
+        font-size: 16px;
+    }
+    .btn button{
+        margin-top: 50px;
+    }
+}
