@@ -116,7 +116,7 @@ body{
 .text .shape{
     -webkit-text-stroke-width: .1px;
     -webkit-text-stroke-color: red;
-    color: transparent;
+    color: red;
 }
 .text p .accomplish{
     -webkit-text-stroke-width: .1px;
